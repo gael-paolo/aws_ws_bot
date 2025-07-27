@@ -1,0 +1,24 @@
+{
+  "name": "moto_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "baileys": "^6.7.18",
+    "dotenv": "^17.2.1",
+    "link-preview-js": "^3.1.0",
+    "mysql2": "^3.14.2",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "qrcode": "^1.5.4",
+    "sequelize": "^6.37.7",
+    "sharp": "^0.32.6"
+  }
+}

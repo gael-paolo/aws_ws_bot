@@ -2,7 +2,7 @@ const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = requi
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 require('dotenv').config();
 const QRCode = require("qrcode");
-const Producto = require("./models/Producto"); // Asegúrate que la ruta sea correcta
+const Producto = require("./models/producto"); // Asegúrate que la ruta sea correcta
 
 // Inicializa el cliente de Gemini AI
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
